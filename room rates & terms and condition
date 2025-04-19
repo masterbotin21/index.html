@@ -1,121 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kawa Resort Terms</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kawa Resort Siargao</title>
   <style>
-    * {
+    /* Global styles */
+    body {
+      font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
+      background-color: #f4f4f4;
+      color: #333;
     }
-    body {
-      font-family: 'Poppins', sans-serif;
-      background-color: #fff;
-      color: #000;
-      line-height: 1.8;
-    }
+
+    /* Header styles */
     header {
-      background-color: #e08600;
-      color: #fff;
-      padding: 2rem;
+      background-color: #2c6e4d;
+      color: white;
       text-align: center;
+      padding: 40px 20px;
     }
     header h1 {
-      font-size: 2.5rem;
+      font-size: 36px;
+      margin-bottom: 10px;
     }
     header p {
-      font-size: 1.1rem;
+      font-size: 18px;
+      margin: 0;
     }
+
+    /* Main content styles */
     .container {
-      max-width: 1000px;
+      padding: 30px 20px;
+      max-width: 1100px;
       margin: auto;
-      padding: 2rem;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
     }
     h2 {
-      color: #e08600;
-      margin-bottom: 1rem;
+      color: #2c6e4d;
+      font-size: 28px;
+      border-bottom: 2px solid #2c6e4d;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
     }
-    .rates, .terms {
-      margin-bottom: 3rem;
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
     }
-    ul, ol {
-      padding-left: 1.5rem;
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
     }
-    .highlight {
-      font-weight: 600;
-      color: #e08600;
+    th {
+      background-color: #2c6e4d;
+      color: white;
+      font-weight: bold;
     }
+    td {
+      background-color: #fafafa;
+    }
+
+    ul {
+      margin-left: 20px;
+      list-style-type: disc;
+    }
+
+    /* Footer styles */
     footer {
-      background-color: #000;
-      color: #fff;
+      background-color: #2c6e4d;
+      color: white;
       text-align: center;
-      padding: 1rem;
+      padding: 15px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
+      }
+      header h1 {
+        font-size: 28px;
+      }
+      h2 {
+        font-size: 24px;
+      }
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Kawa Resort</h1>
-    <p>Barangay Malinao, General Luna, Surigao del Norte, 8419 Siargao Islands, Philippines</p>
-    <p>Contact: 0915-121-9064 | Email: kawaresort@gmail.com</p>
-  </header>
 
-  <div class="container">
-    <section class="rates">
-      <h2>Standard Room Rates</h2>
+<!-- Header Section -->
+<header>
+  <h1>Kawa Resort</h1>
+  <p>Barangay Malinao, General Luna, Surigao del Norte 8419<br>Siargao Islands, Philippines</p>
+</header>
+
+<!-- Main Content Section -->
+<div class="container">
+  <h2>Contact Information</h2>
+  <p><strong>Phone:</strong> 0935 394 9927<br>
+     <strong>Email:</strong> kawaresort@gmail.com</p>
+
+  <h2>Room Rates (Per Night)</h2>
+  <table>
+    <tr><th>Room Type</th><th>Rate</th><th>Inclusions</th></tr>
+    <tr><td>Room for 1</td><td>PHP 2,000</td><td>Breakfast for 1</td></tr>
+    <tr><td>Room for 3</td><td>PHP 4,500</td><td>Breakfast for 3</td></tr>
+    <tr><td>Room for 4</td><td>PHP 5,500</td><td>Breakfast for 4</td></tr>
+    <tr><td>Barkadahan (10–18 pax)</td><td>PHP 700/head</td><td>Breakfast included</td></tr>
+    <tr><td>Extra Bed</td><td>PHP 700</td><td>–</td></tr>
+    <tr><td>Additional Breakfast</td><td>PHP 200</td><td>–</td></tr>
+  </table>
+
+  <h2>Standard Food Rates</h2>
+  <table>
+    <tr><th>Meal</th><th>Rate (per head)</th></tr>
+    <tr><td>AM/PM Snack</td><td>PHP 150</td></tr>
+    <tr><td>Lunch</td><td>PHP 500</td></tr>
+    <tr><td>Dinner</td><td>PHP 500</td></tr>
+  </table>
+
+  <h2>Venue Packages</h2>
+  <table>
+    <tr><th>Venue</th><th>Capacity</th><th>In-House Caterer</th><th>Outside Caterer</th></tr>
+    <tr><td>Small Function</td><td>Max 30 pax</td><td>PHP 5,000</td><td>PHP 15,000</td></tr>
+    <tr><td>Big Function (Seminar/Conference)</td><td>100–120 pax</td><td>PHP 10,000</td><td>PHP 20,000</td></tr>
+    <tr><td>Wedding/Debut/Birthday (Indoor)</td><td>100–120 pax</td><td>PHP 20,000</td><td>PHP 45,000</td></tr>
+    <tr><td>Outdoor Venue</td><td>Max 300 pax</td><td>PHP 20,000</td><td>PHP 45,000</td></tr>
+  </table>
+  <p><strong>Note:</strong><br>
+    - Additional 100 pax: +PHP 5,000<br>
+    - Full LED, sound, and lighting setup: +PHP 10,000 (subject to usage)
+  </p>
+
+  <h2>Terms and Conditions</h2>
+  <ol>
+    <li><strong>Downpayment:</strong> 50% required to reserve meals, accommodations, and venue.
       <ul>
-        <li><span class="highlight">Room for 1</span> – ₱2,000.00/night (6 rooms) with complimentary breakfast for 1</li>
-        <li><span class="highlight">Room for 3</span> – ₱4,500.00/night (13 rooms) with complimentary breakfast for 3</li>
-        <li><span class="highlight">Room for 4</span> – ₱5,500.00/night (13 rooms) with complimentary breakfast for 4</li>
-        <li><span class="highlight">Barkadahan Room</span> – ₱700.00/head (1 room, min. 10 pax, max. 18 pax)</li>
-        <li><span class="highlight">Extra bed</span>: ₱700.00 / <span class="highlight">Extra breakfast</span>: ₱200.00</li>
+        <li>Cash</li>
+        <li>GCash: 0956-564-3157 (Charmille P. Podadera)</li>
+        <li>Bank: PNB – Kawa Resort – Acct No: 403610043050 – Branch: 4036 Siargao Island – Dapa</li>
       </ul>
-    </section>
+    </li>
+    <li><strong>Full Payment:</strong> Required by check-in.</li>
+    <li><strong>ID:</strong> Present valid photo ID or passport at check-in.</li>
+    <li><strong>Registration:</strong> Guests must register their name, age, sex, address, and check-in/check-out dates.</li>
+    <li><strong>Check-In/Out:</strong> Check-in: 3 PM / Check-out: 11 AM. Subject to availability for extensions.</li>
+    <li><strong>Non-Refundable:</strong> All payments are non-refundable. Rebooking allowed with 20% incidental fee.</li>
+    <li><strong>Cancellation:</strong>
+      <ul>
+        <li>Cancel 15 days before: No charge</li>
+        <li>Cancel 7 days before: 50% charge</li>
+        <li>No show: Full charge</li>
+      </ul>
+    </li>
+    <li><strong>Resort Rules:</strong>
+      <ul>
+        <li>Maintain proper decorum. Disruptive behavior may lead to removal and full charge.</li>
+        <li>No smoking in rooms. Penalty: 3x room rate.</li>
+      </ul>
+    </li>
+    <li><strong>Damages:</strong> Guests must pay for any damage caused.</li>
+  </ol>
 
-    <section class="terms">
-      <h2>Terms and Conditions</h2>
-      <ol>
-        <li><span class="highlight">Downpayment:</span> 50% required to reserve meals, room, and venue.
-          <ul>
-            <li>Cash</li>
-            <li>GCash: 0956-564-3157 (Charmille P. Podadera)</li>
-            <li>Bank: Philippine National Bank, Account No: 403610043050, Branch: Dapa</li>
-          </ul>
-        </li>
-        <li><span class="highlight">Payment:</span> Full payment must be made upon check-in.</li>
-        <li><span class="highlight">Valid ID:</span> Present valid ID or passport at check-in.</li>
-        <li><span class="highlight">Registration:</span> Guests must provide:
-          <ul>
-            <li>Name, age, sex, and address</li>
-            <li>Check-in and check-out dates</li>
-          </ul>
-        </li>
-        <li><span class="highlight">Check-in:</span> 3 PM | <span class="highlight">Check-out:</span> 11 AM (Early/late subject to availability)</li>
-        <li><span class="highlight">Night Extensions:</span> Subject to availability.</li>
-        <li><span class="highlight">Non-Refundable Policy:</span> Payments are non-refundable. Date change allowed with 20% incidental fee.</li>
-        <li><span class="highlight">Cancellation Policy:</span> 
-          <ul>
-            <li>Cancel 15+ days before arrival: No charge</li>
-            <li>Within 7 days: 50% charge</li>
-            <li>No-shows: Full charge</li>
-          </ul>
-        </li>
-        <li><span class="highlight">Resort Rules:</span>
-          <ul>
-            <li>Maintain proper decorum. Misbehavior may result in expulsion and charges.</li>
-            <li>No smoking inside rooms. Penalty: 3x the room rate</li>
-          </ul>
-        </li>
-        <li><span class="highlight">Damages:</span> Guests must pay for any intentional/negligent damages.</li>
-      </ol>
-    </section>
-  </div>
+  <p><strong>Prepared by:</strong><br>FATIMA DIANE B. TROZO<br>Kawa Resort Receptionist</p>
+</div>
 
-  <footer>
-    &copy; 2025 Kawa Resort. All rights reserved.
-  </footer>
+<!-- Footer Section -->
+<footer>
+  <p>&copy; 2025 Kawa Resort | Siargao Islands, Philippines</p>
+</footer>
+
 </body>
 </html>
