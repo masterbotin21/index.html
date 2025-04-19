@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kawa Resort Terms</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff;
+      color: #000;
+      line-height: 1.8;
+    }
+    header {
+      background-color: #e08600;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+    h2 {
+      color: #e08600;
+      margin-bottom: 1rem;
+    }
+    .rates, .terms {
+      margin-bottom: 3rem;
+    }
+    ul, ol {
+      padding-left: 1.5rem;
+    }
+    .highlight {
+      font-weight: 600;
+      color: #e08600;
+    }
+    footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kawa Resort</h1>
+    <p>Barangay Malinao, General Luna, Surigao del Norte, 8419 Siargao Islands, Philippines</p>
+    <p>Contact: 0915-121-9064 | Email: kawaresort@gmail.com</p>
+  </header>
+
+  <div class="container">
+    <section class="rates">
+      <h2>Standard Room Rates</h2>
+      <ul>
+        <li><span class="highlight">Room for 1</span> – ₱2,000.00/night (6 rooms) with complimentary breakfast for 1</li>
+        <li><span class="highlight">Room for 3</span> – ₱4,500.00/night (13 rooms) with complimentary breakfast for 3</li>
+        <li><span class="highlight">Room for 4</span> – ₱5,500.00/night (13 rooms) with complimentary breakfast for 4</li>
+        <li><span class="highlight">Barkadahan Room</span> – ₱700.00/head (1 room, min. 10 pax, max. 18 pax)</li>
+        <li><span class="highlight">Extra bed</span>: ₱700.00 / <span class="highlight">Extra breakfast</span>: ₱200.00</li>
+      </ul>
+    </section>
+
+    <section class="terms">
+      <h2>Terms and Conditions</h2>
+      <ol>
+        <li><span class="highlight">Downpayment:</span> 50% required to reserve meals, room, and venue.
+          <ul>
+            <li>Cash</li>
+            <li>GCash: 0956-564-3157 (Charmille P. Podadera)</li>
+            <li>Bank: Philippine National Bank, Account No: 403610043050, Branch: Dapa</li>
+          </ul>
+        </li>
+        <li><span class="highlight">Payment:</span> Full payment must be made upon check-in.</li>
+        <li><span class="highlight">Valid ID:</span> Present valid ID or passport at check-in.</li>
+        <li><span class="highlight">Registration:</span> Guests must provide:
+          <ul>
+            <li>Name, age, sex, and address</li>
+            <li>Check-in and check-out dates</li>
+          </ul>
+        </li>
+        <li><span class="highlight">Check-in:</span> 3 PM | <span class="highlight">Check-out:</span> 11 AM (Early/late subject to availability)</li>
+        <li><span class="highlight">Night Extensions:</span> Subject to availability.</li>
+        <li><span class="highlight">Non-Refundable Policy:</span> Payments are non-refundable. Date change allowed with 20% incidental fee.</li>
+        <li><span class="highlight">Cancellation Policy:</span> 
+          <ul>
+            <li>Cancel 15+ days before arrival: No charge</li>
+            <li>Within 7 days: 50% charge</li>
+            <li>No-shows: Full charge</li>
+          </ul>
+        </li>
+        <li><span class="highlight">Resort Rules:</span>
+          <ul>
+            <li>Maintain proper decorum. Misbehavior may result in expulsion and charges.</li>
+            <li>No smoking inside rooms. Penalty: 3x the room rate</li>
+          </ul>
+        </li>
+        <li><span class="highlight">Damages:</span> Guests must pay for any intentional/negligent damages.</li>
+      </ol>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Kawa Resort. All rights reserved.
+  </footer>
+</body>
+</html>
